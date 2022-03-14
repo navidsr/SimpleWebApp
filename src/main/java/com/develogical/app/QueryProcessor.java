@@ -9,6 +9,6 @@ public class QueryProcessor {
         } else if (query.toLowerCase().contains("joe biden")) {
             return "US president";
         }
-        return "1";
+        return "";
     }
 }
